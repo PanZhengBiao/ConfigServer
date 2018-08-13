@@ -1,0 +1,17 @@
+server:
+  port: 8070
+spring:
+  application:
+    name: manager-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.213.133:8066/eureka,http://192.168.213.133:8067/eureka,http://192.168.213.133:8068/eureka
+swagger:
+  termsof-service-url:
+  email: 642213760@qq.com
+  license: apach 2.0
+  license-url: www.baidu.com
+  title: manager-service
+  user-name: pzb
+  version: 1.0
